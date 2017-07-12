@@ -1,9 +1,11 @@
 <!DOCTYPE HTML>
 <html lang="ru">
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; meta charset=utf-8">
-		<title>articles</title>
+		<meta http-equiv="Content-Type" content="text/html"; meta charset="utf-8">
+		<title>Kolex.ru Новости</title>
 		<link rel="stylesheet" href="styles/style_article.css">
+		<link href="https://fonts.googleapis.com/css?family=Anton|Oswald" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 	</head>
 	<body>
 		<header>
@@ -21,14 +23,16 @@
 								<img class ="link" src="images/sberbank.png" alt="sber">
 							</div>
 						</div>
-						<div class="header-top_reg">
-							<img src="images/reg.png" alt="sign">
-							<span>регистрация</span>
-						</div>
-						
-						<div class="header-top_reg">
-							<img src="images/sign.png" alt="signin">
-							<span>вход</span>
+						<div class="header-top_regblock">
+							<div class="header-top_reg">
+								<img src="images/sign.png" alt="signin">
+								<a href=""><span>вход</span></a>
+							</div>
+							
+							<div class="header-top_reg">
+								<img src="images/reg.png" alt="sign">
+								<a href=""><span>регистрация</span></a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -45,46 +49,31 @@
 					<div class="header-menu">
                         <!--поиск-->
 						<div class="header-menu_half" id="align-start">
-							<div class ="menu-panel">
-								<img src="images/marker.png" alt="marker">	
 								<div class="search">
+									<img src="images/marker.png" alt="marker">
 									<select class="drop-list">
 										<option>Самара</option>
 										<option>Москва</option>
 									</select>
 								</div>
+
 								<div class="search">
 									<input class="inputing" type="text" placeholder="Поиск по каталогу">
-								</div>
-								<div class="search_b">
-									<button class="input_button">Найти</button>
+									<div class="search_b">
+										<button class="input_button">Найти</button>
+									</div>
 								</div>
 								<div class="menu-panel_call">
 									<img src="images/alert.png" alt="alert">
 									<button class="order_button">Заказать звонок</button>
 								</div>
-							</div>
 						</div>
-						
                         <!--телефон и инфа-->
 						<div class="header-menu_half" id="align-end">
-							<div class ="menu-panel">
+							<div class="info">
 								<img src="images/phone.png" alt="phone">
-								<div class="info">
-									<span class="tel">8 800 234 73 43</span>
-								</div>
-								<div class="info">
-									<span class="text-small">Звонки по России бесплатны. Время работы с 9:00 до 18:00 пн-пт.</span>
-								</div>
-                                <!--<img src="images/phone.png" alt="">
-                                <div class="container">
-                                        <div class="tel">
-                                                8 800 234 73 43
-                                        </div>
-                                        <div class="info">
-                                                <span>Звонки по России бесплатны. Время работы с 9:00 до 18:00 пн-пт.</span>
-                                        </div>
-                                </div>-->
+								<span class="tel">8 800 234 73 43</span>
+								<span class="text-small">Звонки по России бесплатны. Время работы с 9:00 до 18:00 пн-пт.</span>
 							</div>
 						</div>
                     </div>
@@ -96,15 +85,10 @@
 									<span class="cart-price_sum">12000<span class="cart-price_currency">₽</span></span>
 									<a class="quantity">4 товара в корзине</a>
 								</div>
-							<div class="cart_button">
-								<a class="cart-button_style" href="javascript:void(0);">оплатить</a>
-							</div>	
+								<div class="cart-button_style">
+									<button class="cart_button">оплатить</button>
+								</div>
 						</div>
-                        <!--<div class="img">
-                        <img src="images/basket.png" alt="">
-                        </div>
-                        <div class="cost">
-                                <p>12700</p>-->
 					</div>
 				</div>
                 <!--навигация-->
@@ -126,7 +110,9 @@
 				</div>
 				<div class="header-container_subtrate">
 					<div class="subtrate-background">
-						<h1>Статьи</h1>
+						<div class="substrate-background_line"><hr size=1px color="black" align="left"></div>
+						<div><h1>Статьи</h1></div>
+						<div class="substrate-background_line"><hr size=1px color="black" align="left"></div>
 					</div>
 				</div>
 			</div>
@@ -137,18 +123,13 @@
 				<img class="image-content" src="images/fuel.png" alt="fuel">
 				<p class="content-container_article">
 					<span class="date"> 01.04.2016 </span>
-					Российские автомобилисты ждут очередного повышения цен на автомобильное топливо. 
-					С сегодняшнего дня, с 1 апреля 2016 года, ставка акциза на бензин экологического стандарта «Евро-5», 
-					который действует до 31 декабря 2016 года, составляет 10 130 рублей за тонну. На дизтопливо акциз увеличился до 5 293 рубля за тонну. 
+					Российские автомобилисты ждут очередного повышения цен на автомобильное топливо. С сегодняшнего дня, с 1 апреля 2016 года, ставка акциза на бензин экологического стандарта «Евро-5», который действует до 31 декабря 2016 года, составляет 10 130 рублей за тонну. На дизтопливо акциз увеличился до 5 293 рубля за тонну. 
 				</p>
 				<p class="content-container_article">
-					В прошлый раз акцизы были увеличены с 1 января текущего года. 
-					Тогда ставка на бензин «Евро-5» выросла на 36,1%, до 7,53 рубля за литр. На дизтопливо она поднялась на 20,3%, до 4,15 рубля за литр. 
-					Напомним, дважды за один год акциз также рос в 2013 году.
+					В прошлый раз акцизы были увеличены с 1 января текущего года. Тогда ставка на бензин «Евро-5» выросла на 36,1%, до 7,53 рубля за литр. На дизтопливо она поднялась на 20,3%, до 4,15 рубля за литр. Напомним, дважды за один год акциз также рос в 2013 году.
 				</p>
 				<p class="content-container_article">
-					По данным Федеральной службы государственной статистики, в 2015 году инфляция в РФ составила 12,9%, при этом цены на бензин увеличились на 4,8%. 
-					Ранее сообщали о том, что по расчётам специалистов дополнительные доходы консолидированного бюджета страны от повышения акцизов на бензин и дизтопливо должны составить в текущем году порядка 89,3 миллиарда рублей. 
+					По данным Федеральной службы государственной статистики, в 2015 году инфляция в РФ составила 12,9%, при этом цены на бензин увеличились на 4,8%. Ранее сообщали о том, что по расчётам специалистов дополнительные доходы консолидированного бюджета страны от повышения акцизов на бензин и дизтопливо должны составить в текущем году порядка 89,3 миллиарда рублей. 
 				</p>
 				<div class ="button-container">
 					<button class ="button-content">Все статьи</button>
@@ -179,10 +160,10 @@
 					<ul class="list">
 						<li class ="list-item">
 							<ul class="footer_menu">
-								<li class="container-menu_item"><a href="javascript:void(0);">Главная</a></li>
-								<li class="container-menu_item"><a href="javascript:void(0);">Каталог шин</a></li>
-								<li class="container-menu_item"><a href="javascript:void(0);">Каталог дисков</a></li>
-								<li class="container-menu_item"><a href="javascript:void(0);">Сервисный центр</a></li>
+								<li class="container-menu_item text-bold text-uppercase"><a href="javascript:void(0);">Главная</a></li>
+								<li class="container-menu_item text-bold text-uppercase"><a href="javascript:void(0);">Каталог шин</a></li>
+								<li class="container-menu_item text-bold text-uppercase"><a href="javascript:void(0);">Каталог дисков</a></li>
+								<li class="container-menu_item text-bold text-uppercase"><a href="javascript:void(0);">Сервисный центр</a></li>
 								<li class="container-menu_item"><a href="javascript:void(0);">СТО</a></li>
 								<li class="container-menu_item"><a href="javascript:void(0);">Замена щеток стеклоочистителей</a></li>
 								<li class="container-menu_item"><a href="javascript:void(0);">Замена шаровой опоры</a></li>
@@ -210,10 +191,10 @@
 								<li class="container-menu_item"><a href="javascript:void(0);">Сезонное хранение</a></li>
 								<li class="container-menu_item"><a href="javascript:void(0);">Автомойка в Тольятти</a></li>
 								<li class="container-menu_item"><a href="javascript:void(0);">Шинный калькулятор</a></li>
-								<li class="container-menu_item"><a href="javascript:void(0);">Акции</a></li>
+								<li class="container-menu_item text-bold text-uppercase"><a href="javascript:void(0);">Акции</a></li>
 								<li class="container-menu_item"><a href="javascript:void(0);">Текущие акции</a></li>
-								<li class="container-menu_item"><a href="javascript:void(0);">Оплата и доставка</a></li>
-								<li class="container-menu_item"><a href="javascript:void(0);">Шинный центр</a></li>
+								<li class="container-menu_item text-bold text-uppercase"><a href="javascript:void(0);">Оплата и доставка</a></li>
+								<li class="container-menu_item text-bold text-uppercase"><a href="javascript:void(0);">Шинный центр</a></li>
 								<li class="container-menu_item"><a href="javascript:void(0);">О компании</a></li>
 							</ul>
 						</li>
@@ -222,8 +203,8 @@
 							<ul class="footer_menu">
 								<li class="container-menu_item"><a href="javascript:void(0);">Новости</a></li>
 								<li class="container-menu_item"><a href="javascript:void(0);">Корпоративный отдел</a></li>
-								<li class="container-menu_item"><a href="javascript:void(0);">Магазины</a></li>
-								<li class="container-menu_item"><a href="javascript:void(0);">Статьи</a></li>
+								<li class="container-menu_item text-bold text-uppercase"><a href="javascript:void(0);">Магазины</a></li>
+								<li class="container-menu_item text-bold text-uppercase"><a href="javascript:void(0);">Статьи</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -288,7 +269,6 @@
 					<span class="text-uppercase">сделано с любовью в <span>parus agency</span></span>
 				</div>
 			</div>
-		</div>
 		</footer>
 	</body>
 </html>
